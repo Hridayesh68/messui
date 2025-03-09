@@ -1,0 +1,25 @@
+      
+        #currentDateTime {
+            white-space: nowrap; /* Prevent line breaks */
+        }
+        .date {
+            margin-right: 100px; /* Add space between date and time */
+        }
+   
+        @keyframes zoomIn {
+            0% {
+                transform: scale(0.8);
+                opacity: 0;
+            }
+            50% {
+                transform: scale(1.1);
+                opacity: 1;
+            }
+            100% {
+                transform: scale(1);
+                opacity: 1;
+            }
+        }
+        .zoom-in {
+            animation: zoomIn 5s ease-in-out infinite;
+        }
